@@ -1,0 +1,3 @@
+# Existing HAILO_PLATE/.venv supplies numpy, opencv-python and HailoRT.
+# Used only for bounded image decoding and EXIF orientation.
+Pillow==12.3.0

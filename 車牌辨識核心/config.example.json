@@ -1,0 +1,21 @@
+{
+  "input_dir": "input",
+  "result_dir": "input",
+  "details_dir": "output/details",
+  "yolo_dir": "output/yolo",
+  "state_dir": "state",
+  "backend": "hailo-all",
+  "ocr_vocabulary": "plate41",
+  "result_policy": "all",
+  "ocr_min_confidence": 0.5,
+  "ocr_retry_threshold": 0.95,
+  "save_yolo_image": false,
+  "max_file_bytes": 104857600,
+  "max_pixels": 40000000,
+  "scan_interval_seconds": 2.0,
+  "poll_interval_seconds": 0.25,
+  "heartbeat_seconds": 2.0,
+  "max_inflight_images": 4,
+  "max_queued_jobs": 128,
+  "pose_input_policy": "smallest_fit_downscale_v1"
+}
