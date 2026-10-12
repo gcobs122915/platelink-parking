@@ -1,0 +1,36 @@
+# Local environments and caches
+**/.venv/
+.venv-review/
+**/__pycache__/
+*.py[cod]
+# Local settings and credentials
+**/config.json
+.env
+.env.*
+*.pem
+*.key
+# Runtime records
+車牌辨識核心/input/
+車牌辨識核心/output/
+車牌辨識核心/state/
+車牌辨識核心/test_runs/
+車牌辨識核心/測試照片/
+*.sqlite*
+*.db
+*.log
+# Separately supplied model/provenance/vendor bundles
+PlateRecognition_Models_20261009/
+HAILO_PLATE/releases/20261009/compiler/
+HAILO_PLATE/releases/20261009/models/
+HAILO_PLATE/releases/20261009/validation/
+HAILO_PLATE/releases/20261009/results/
+**/vendor/
+**/downloads/
+*.hef
+*.pt
+*.onnx
+*.pdiparams
+*.har
+*.npy
+*.npz
+*.zip

@@ -1,0 +1,11 @@
+# Observed Windows 11 / Python 3.13.5 review environment.
+# Fresh dependency installation was not tested during packaging.
+numpy==2.4.4
+opencv-python-headless==5.0.0.93
+onnxruntime==1.31.0
+Pillow==12.3.0
+
+# Hardware execution separately requires the HailoRT Windows runtime/driver
+# and matching vendor Python wheel, version 5.3.2 (import: hailo_platform).
+# No vendor installer, wheel, model, or download credential is included.
+# HailoRT is not needed by the included fixture-based unit tests.
