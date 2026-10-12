@@ -1,0 +1,9 @@
+{
+  "app_dir": "../車牌辨識核心/app",
+  "port": 8766,
+  "samples": {
+    "military": "military.jpg",
+    "diplomatic": "diplomatic.jpg",
+    "foreign": "foreign.jpg"
+  }
+}
