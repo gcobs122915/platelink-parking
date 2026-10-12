@@ -34,3 +34,15 @@ HAILO_PLATE/releases/20261009/results/
 *.npy
 *.npz
 *.zip
+# Local browser demo assets and state
+demo_web/config.json
+demo_web/runtime/
+demo_web/core/
+demo_web/recordings/
+demo_web/samples/*.jpg
+demo_web/samples/*.jpeg
+demo_web/samples/*.png
+demo_web/samples/*.webp
+
+.venv-demo/
+demo_web/demo.config.json

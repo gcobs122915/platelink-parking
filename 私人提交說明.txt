@@ -1,18 +1,10 @@
-私人提交說明（2026-10-12）
+原私人提交說明（公開版更新）
 
-GitHub 帳號：gcobs122915。
-分享意圖：Private，只讓自己及主辦單位正式指定的審查帳號存取。
+使用者已改為公開 GitHub 專案，供評審直接閱讀程式碼。
+專案：https://github.com/gcobs122915/platelink-parking
 
-私人專案已建立：https://github.com/gcobs122915/platelink-parking
-本資料夾是為上述私人專案整理的來源碼審查包。主辦單位的審查者尚未受邀。
-目前仍需取得主辦單位正式提供的 GitHub 審查帳號；FAQ 未列出可直接使用的審查帳號，不要猜測。Private 網址本身不會給予存取權。
+本檔沿用歷史檔名。原先的私人邀請流程不再是公開專案的閱讀前提。
+最新範圍、下載方式及測試網頁說明，請看 PUBLIC_SUBMISSION.md 與 demo_web/README.md。
 
-個人帳號的私人 repository：GitHub collaborator 同時有讀取及寫入權限，不能只給 Read。
-若要只讀審查：organization 的私人 repository 可指定 Read；設定時也須確認既有成員和其他授權，讓可見範圍符合使用者要求。
-
-GitHub 官方說明（2026-10-12 查閱）：
-https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/permission-levels-for-a-personal-account-repository
-https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization
-
-本包只有挑選過的程式、合成測試與設定範例，不含實拍照片、辨識結果、模型權重、HEF、資料庫或原始驗證報告。它不是下載後就能直接執行的硬體部署包，模型與驗證資料須另行提供。
-目前未實作 ParkingMapApp 串接、車位與車牌配對或在席模型遷移。未來整合規劃不能當成這份來源碼已完成的功能。
+公開包包含程式碼與合成測試；模型、HEF、實拍照片、輸出資料、帳密及廠商套件須另行準備。
+車體 YOLO 移植及 ParkingMapApp 整合仍待完成。
